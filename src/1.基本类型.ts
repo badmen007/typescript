@@ -83,6 +83,7 @@ function getArea(obj: IRant | ISquare) {
 
 let s1 = Symbol();
 let s2 = Symbol();
+// console.log(s1 === s2)  // false
 
 // 10.非原始类型
 
