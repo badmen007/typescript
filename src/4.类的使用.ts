@@ -2,7 +2,7 @@
 // 类 1. 类中的属性定义 实例属性 原型属性  原型方法 静态方法(主要目的就是声明类中的this)
 
 class Circle {
-  public _r!: number;
+  public _r!: number; //表示的是非空断言
   // this上申明的属性 必须要提前声明
   constructor(public x: number,public y: number, r?: number) { // 如果你不想把这个属性挂到实例上的话  那就不用public 
     this.x = x;
